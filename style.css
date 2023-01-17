@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+.container{
+     
+    background: rgb(0,212,255);
+background: linear-gradient(148deg, rgba(0,212,255,1) 50%, rgba(11,196,181,1) 51%);
+    height: 550px;
+    background: linear-gradient(to bottom right, #33ccff 56%, #006699 57%);
+
+    width: 100%
+    
+}
+.hading{
+    text-align: center;
+    padding-top: 300px;
+}
+.hading h1{
+    size: 100px;
+    color: azure;
+}
+.hading h1 b{
+    color: rgb(150, 234, 65);
+}
+.hading h2{
+    size: 100px;
+    color: azure;
+}
+
+.hading h2 b{
+    color: rgb(148, 233, 63);
+}
+/*navebar*/
+.navebar ul{
+    display: flex;
+    justify-content: center;
+    height:30px ;
+    margin-left: 600px;
+    
+    gap: 30px;
+    text-decoration: dotted;
+}
+   
+/*nave2*/
+
+.class1{
+height: 50px;
+width:100%;
+background-color: rgb(197, 197, 206);
+
+text-align: center;
+
+}
+/*.class2{
+     height: 50px;
+     width: 650px;
+     background-color: rgb(255, 5, 5);
+    display: flex;
+    justify-content:space-around; 
+
+}
+.a{
+    margin-left: 350px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.b{
+    margin-left: 250px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.c{
+    margin-left: 200px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}*/
+.about{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    
+    
+   
+}
+.obj{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    background-color: #eae9e9;
+    margin-top: 20px;
+}
+
+.object{
+    text-align: center;
+    width: 600px;
+    padding-top: 90px;
+    font-size: 25;
+    margin-top: 100px;
+    height: 400px;
+     
+}
+.obj h1{
+    font-size: 50px;
+}
+.abt{
+    height:50px;
+    
+    padding-top: 180px;
+    margin-top: 100px;
+    
+
+}
+.abt p{
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.card{
+    height: 560px;
+    width: 350px;
+    background-color: rgb(199, 208, 208);
+    margin-top: 30px;
+    border-radius: 20px;
+    
+    
+    
+}
+
+    
+
+.card2{
+    height: 20px;
+    width: 40px;
+    margin-top: 50px;
+    margin-left: 40px;
+
+}
+
+.work{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.work2{
+    height: 250px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    border-radius: 10px;
+    align-items: flex-start;
+    
+}
+.table{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(195, 192, 192);
+    padding-top: 40px;
+    padding-left: 20px;
+    border-radius: 5px;
+    padding-left: 30px;
+    margin-left: 40px;
+}
+.table a img{
+    height: 150px;
+    width: 150px;
+    
+    
+    
+}
+.login-form{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(195, 192, 192);
+    padding-top: 40px;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+.login-form a img{
+    height:120px;
+    width: 190px;
+    
+}
+.saylani{
+    height: 220px;
+    width: 180px;
+    background-color: rgb(195, 192, 192);
+    padding-top: 20px;
+    padding-left: 60px;
+    border-radius: 5px;
+    margin-left: 40px;
+
+}
+.saylani a img{
+    height:90px;
+    width: 90px;
+    padding-left: 10px;
+}
+.rig-form{
+    height: 220px;
+    width: 180px;
+    background-color: rgb(195, 192, 192);
+    padding-top: 20px;
+    padding-left: 60px;
+    border-radius: 5px;
+    
+}
+.rig-form a img{
+    height:120px;
+    width: 120px;
+    padding-left: 10px;
+    
+}
+           /*work3*/
+.work3{
+    height: 300px;
+    width:100%;
+    background-color:blueviolet ;
+    display: flex;
+    justify-content: space-evenly;
+}           
+.iphone {
+    height: 240px;
+    width: 200px;
+    background-color: rgb(163, 161, 159);
+    margin-top: 40px;
+    border-radius: 5px;
+
+}
+.iphone a img{
+    height:140px;
+    width: 140px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.iphone h3{
+    text-align: center;
+}
+.form{
+    height: 240px;
+    width: 200px;
+    background-color: rgb(163, 161, 159);
+    margin-top: 40px;
+    border-radius: 5px;
+
+}
+.form a img{
+    height:140px;
+    width: 140px;
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+.contact{
+    height: 30px;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+#hading{
+    height: 20px;
+    width: 100%;
+    margin-top: 50px;
+    color: rgb(39, 138, 39);
+    text-align: center;
+}
+.contact2{
+    height: 500px;
+    width: 100%;
+    
+    text-align: center;
+    padding-top: 30px;
+}
+#name{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+#email{
+    height: 30px;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#text{
+    margin-top: 30px;
+    height: 250px;
+    width: 300px;
+    font-size: 25px;
+    border-radius: 9px;
+}
+.contact2 button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(40, 76, 177);
+    color: aliceblue;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+.folo{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+.link{
+   height: 90px;
+   width: 100%;
+   
+   text-align: center;
+   padding-top: 50px;
+   font-size: 50px;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(27, 27, 209);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
