@@ -9,13 +9,15 @@
 background: linear-gradient(148deg, rgba(0,212,255,1) 50%, rgba(11,196,181,1) 51%);
     height: 550px;
     background: linear-gradient(to bottom right, #33ccff 56%, #006699 57%);
-
+    background-image: url(./images/programming.jpg);
+    background-size: cover;
     width: 100%
     
 }
 .hading{
     text-align: center;
     padding-top: 300px;
+    
 }
 .hading h1{
     size: 100px;
@@ -33,14 +35,36 @@ background: linear-gradient(148deg, rgba(0,212,255,1) 50%, rgba(11,196,181,1) 51
     color: rgb(148, 233, 63);
 }
 /*navebar*/
-.navebar ul{
+.navebar ul {
     display: flex;
     justify-content: center;
     height:30px ;
-    margin-left: 600px;
     
-    gap: 30px;
-    text-decoration: dotted;
+    padding-left: 600px;
+    cursor: pointer;
+    gap: 50px;
+    background-color: grey;
+    padding-top: 10px;
+    
+    
+    
+
+}
+.navebar li a{
+    outline: none;
+    text-decoration: none;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.navebar li a:hover{
+    background-color: rgb(68, 67, 67);
+
+    border-radius: 2px;
+
+    
 }
    
 /*nave2*/
@@ -301,13 +325,16 @@ text-align: center;
     font-size: 25px;
     border-radius: 9px;
 }
-.contact2 button{
+.btn button{
     height: 50px;
     width: 150px;
     background-color: rgb(40, 76, 177);
     color: aliceblue;
     border-radius: 9px;
     margin-top: 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
 }
 .folo{
     height: 30px;
@@ -321,6 +348,12 @@ text-align: center;
    text-align: center;
    padding-top: 50px;
    font-size: 50px;
+   text-decoration: none;
+   color: black;
+}
+.link a{
+    outline: none;
+    color: black;
 }
 .footer{
     height: 60px;
