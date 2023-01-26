@@ -39,7 +39,7 @@ background: linear-gradient(148deg, rgba(0,212,255,1) 50%, rgba(11,196,181,1) 51
     display: flex;
     justify-content: center;
     height:30px ;
-    
+    list-style: none;
     padding-left: 600px;
     cursor: pointer;
     gap: 50px;
@@ -179,22 +179,27 @@ text-align: center;
     justify-content: space-evenly;
     padding-top: 60px;
     border-radius: 10px;
-    align-items: flex-start;
+    align-items: center;
     
 }
 .table{
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     background-color: rgb(195, 192, 192);
     padding-top: 40px;
-    padding-left: 20px;
+    
     border-radius: 5px;
     padding-left: 30px;
     margin-left: 40px;
 }
+.line-one{
+    border: 1px solid black;
+    margin-right: 30px;
+    padding-right: 15px;
+}
 .table a img{
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     
     
     
@@ -210,7 +215,8 @@ text-align: center;
 }
 .login-form a img{
     height:120px;
-    width: 190px;
+    width: 120px;
+    margin-left: 30px;
     
 }
 .saylani{
@@ -229,27 +235,33 @@ text-align: center;
     padding-left: 10px;
 }
 .rig-form{
-    height: 220px;
-    width: 180px;
+    height: 200px;
+    width: 150px;
     background-color: rgb(195, 192, 192);
     padding-top: 20px;
     padding-left: 60px;
     border-radius: 5px;
     
 }
+.line-rig{
+    border: 1px solid black;
+    margin-right: 50px;
+}
 .rig-form a img{
     height:120px;
     width: 120px;
-    padding-left: 10px;
+    padding-right: 60px;
     
 }
+
            /*work3*/
 .work3{
     height: 300px;
     width:100%;
     background-color:blueviolet ;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 }           
 .iphone {
     height: 240px;
@@ -257,17 +269,27 @@ text-align: center;
     background-color: rgb(163, 161, 159);
     margin-top: 40px;
     border-radius: 5px;
+    align-items: center;
 
 }
 .iphone a img{
-    height:140px;
-    width: 140px;
+    height:120px;
+    width: 120px;
     padding-left: 30px;
     padding-top: 30px;
+    align-items: center;
+    border-radius: 10px;
 }
 .iphone h3{
     text-align: center;
 }
+.line2 {
+    border: 1px solid rgb(120, 120, 120);
+    margin: 10px 10px;
+}
+
+
+
 .form{
     height: 240px;
     width: 200px;
@@ -281,7 +303,34 @@ text-align: center;
     width: 140px;
     padding-left: 30px;
     padding-top: 30px;
-
+    border-radius: 10px;
+}
+.line3 {
+    border: 1px solid rgb(118, 118, 118);
+    margin: 10px 10px;
+}
+.form h4{
+    text-align: center;
+}
+.upwork{
+    height: 250px;
+    width: 200px;
+    background-color: rgb(163, 161, 159);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.upwork img{
+    height: 150px;
+    width: 150px;
+    margin: 10px 25px;
+    border-radius: 10px;
+}
+.line-4{
+    border: 1px solid rgb(128, 126, 126);
+    margin: 10px 20px;
+}
+.upwork h4{
+    text-align: center;
 }
 .contact{
     height: 30px;
