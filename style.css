@@ -6,12 +6,14 @@
 .container{
      
     background: rgb(0,212,255);
-background: linear-gradient(148deg, rgba(0,212,255,1) 50%, rgba(11,196,181,1) 51%);
+    background: linear-gradient(148deg, rgba(0,212,255,1) 50%, rgba(11,196,181,1) 51%);
     height: 550px;
     background: linear-gradient(to bottom right, #33ccff 56%, #006699 57%);
-    background-image: url(./images/programming.jpg);
+    background-image: url(./images/bg1.jpg);
     background-size: cover;
-    width: 100%
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
     
 }
 .hading{
@@ -21,48 +23,58 @@ background: linear-gradient(148deg, rgba(0,212,255,1) 50%, rgba(11,196,181,1) 51
 }
 .hading h1{
     size: 100px;
-    color: azure;
+    color: rgb(8, 10, 10);
 }
 .hading h1 b{
-    color: rgb(150, 234, 65);
+    color: rgb(255, 255, 255);
 }
 .hading h2{
     size: 100px;
-    color: azure;
+    color: rgb(4, 5, 5);
 }
 
 .hading h2 b{
-    color: rgb(148, 233, 63);
+    color: rgb(255, 255, 255);
 }
 /*navebar*/
+.navebar{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+}
 .navebar ul {
     display: flex;
-    justify-content: center;
-    height:30px ;
+    justify-content: space-around;
+    height:40px ;
     list-style: none;
     padding-left: 600px;
     cursor: pointer;
-    gap: 50px;
+    gap: 40px;
     background-color: grey;
-    padding-top: 10px;
-    
+    padding-top: 30px;
     
     
 
 }
+
+.logo img{
+    height: 60px;
+    width: 60px;
+    padding-top:10px;
+    margin-bottom: 5px;
+    
+}
 .navebar li a{
-    outline: none;
     text-decoration: none;
     border: none;
     color: white;
-    text-decoration: none;
     font-size: 18px;
 
 }
 .navebar li a:hover{
     background-color: rgb(68, 67, 67);
-
-    border-radius: 2px;
+    
+    border-radius: 5px;
 
     
 }
@@ -115,6 +127,7 @@ text-align: center;
     height: 600px;
     background-color: #eae9e9;
     margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .object{
@@ -144,7 +157,7 @@ text-align: center;
 
 .card{
     height: 560px;
-    width: 350px;
+    width: 370px;
     background-color: rgb(199, 208, 208);
     margin-top: 30px;
     border-radius: 20px;
@@ -174,28 +187,30 @@ text-align: center;
 .work2{
     height: 250px;
     width: 100%;
-    background-color: blueviolet;
+    background-color: rgb(219, 216, 221);
     display: flex;
     justify-content: space-evenly;
-    padding-top: 60px;
+    padding-top: 40px;
     border-radius: 10px;
     align-items: center;
+    padding: 10px 0;
     
 }
 .table{
-    height: 170px;
-    width: 170px;
+    height: 220px;
+    width: 200px;
     background-color: rgb(195, 192, 192);
     padding-top: 40px;
-    
     border-radius: 5px;
-    padding-left: 30px;
-    margin-left: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+    text-align: center;
 }
 .line-one{
-    border: 1px solid black;
+    border: 1px solid rgb(107, 103, 103);
     margin-right: 30px;
-    padding-right: 15px;
+    padding-right: 20px;
+    margin-left: 20px;
 }
 .table a img{
     height: 120px;
@@ -205,7 +220,7 @@ text-align: center;
     
 }
 .login-form{
-    height: 200px;
+    height: 220px;
     width: 200px;
     background-color: rgb(195, 192, 192);
     padding-top: 40px;
@@ -213,34 +228,42 @@ text-align: center;
     border-radius: 5px;
     margin-left: 40px;
 }
-.login-form a img{
-    height:120px;
-    width: 120px;
-    margin-left: 30px;
+.login-form  img{
+    height:170px;
+    width: 160px;
+    margin-left: 10px;
     
 }
-.saylani{
-    height: 220px;
-    width: 180px;
-    background-color: rgb(195, 192, 192);
-    padding-top: 20px;
-    padding-left: 60px;
-    border-radius: 5px;
-    margin-left: 40px;
-
+.login-form h3{
+    text-align: center;
+    margin-right: 20px;
 }
-.saylani a img{
-    height:90px;
-    width: 90px;
+.saylani{
+    height: 250px;
+    width: 200px;
+    background-color: rgb(163, 161, 159);
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 10px;
     padding-left: 10px;
 }
-.rig-form{
-    height: 200px;
+.saylani a img{
+    height:150px;
     width: 150px;
-    background-color: rgb(195, 192, 192);
-    padding-top: 20px;
-    padding-left: 60px;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+}
+.saylani h3{
+    text-align: center;
+}
+.rig-form{
+    height: 240px;
+    width: 200px;
+    background-color: rgb(163, 161, 159);
+    margin-top: 40px;
     border-radius: 5px;
+    align-items: center;
     
 }
 .line-rig{
@@ -248,9 +271,8 @@ text-align: center;
     margin-right: 50px;
 }
 .rig-form a img{
-    height:120px;
-    width: 120px;
-    padding-right: 60px;
+    height:170px;
+    width: 160px;
     
 }
 
@@ -272,13 +294,12 @@ text-align: center;
     align-items: center;
 
 }
-.iphone a img{
-    height:120px;
-    width: 120px;
-    padding-left: 30px;
-    padding-top: 30px;
-    align-items: center;
-    border-radius: 10px;
+.iphone img{
+    height:170px;
+    width: 160px;
+    padding:10px 20px;
+
+    border-radius:20px;
 }
 .iphone h3{
     text-align: center;
@@ -299,10 +320,9 @@ text-align: center;
 
 }
 .form a img{
-    height:140px;
-    width: 140px;
-    padding-left: 30px;
-    padding-top: 30px;
+    height:170px;
+    width: 170px;
+    padding:10px 20px;
     border-radius: 10px;
 }
 .line3 {
@@ -318,11 +338,12 @@ text-align: center;
     background-color: rgb(163, 161, 159);
     margin-top: 40px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .upwork img{
-    height: 150px;
-    width: 150px;
-    margin: 10px 25px;
+    height: 170px;
+    width: 160px;
+    margin: 10px 20px;
     border-radius: 10px;
 }
 .line-4{
@@ -332,6 +353,30 @@ text-align: center;
 .upwork h4{
     text-align: center;
 }
+.olx{
+    height: 250px;
+    width: 200px;
+    background-color: rgb(163, 161, 159);
+    margin-top: 40px;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.olx img{
+    height: 170px;
+    width: 160px;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+.line-5{
+    border: 1px solid rgb(128, 126, 126);
+    margin: 10px 20px;
+}
+.olx h4{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .contact{
     height: 30px;
     width: 100%;
