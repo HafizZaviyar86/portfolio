@@ -41,17 +41,20 @@
     display: flex;
     justify-content: space-around;
     background-color: grey;
+    position: fixed;
+    width: 100%;
+    dr
 }
 .navebar ul {
-    display: flex;
-    justify-content: space-around;
+    display:flex;
+    justify-content:space-around;
     height:40px ;
     list-style: none;
     padding-left: 600px;
     cursor: pointer;
-    gap: 40px;
-    background-color: grey;
-    padding-top: 30px;
+    gap:40px;
+    background-color:grey;
+    padding-top:30px;
     
     
 
@@ -184,12 +187,18 @@ text-align: center;
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
+.kam{
+    height: 600px;
+    width: 100%;
+    background-color: gray;
+    
+}
 .work2{
     height: 250px;
     width: 100%;
-    background-color: rgb(219, 216, 221);
+    
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-top: 40px;
     border-radius: 10px;
     align-items: center;
@@ -197,46 +206,62 @@ text-align: center;
     
 }
 .table{
-    height: 220px;
+    height: 260px;
     width: 200px;
     background-color: rgb(195, 192, 192);
-    padding-top: 40px;
-    border-radius: 5px;
-    padding-left: 10px;
-    margin-left: 20px;
-    text-align: center;
+   border-radius: 10px;
+   margin-left: 30px;
 }
 .line-one{
     border: 1px solid rgb(107, 103, 103);
-    margin-right: 30px;
+    margin-right: 20px;
     padding-right: 20px;
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 .table a img{
-    height: 120px;
-    width: 120px;
-    
-    
-    
+    height: 170px;
+    width: 160px;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+.table h3{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.table:hover{
+    background-color: #666666;
+    color: white;
+    transition-duration: 0.3s;
 }
 .login-form{
-    height: 220px;
+    height: 260px;
     width: 200px;
     background-color: rgb(195, 192, 192);
-    padding-top: 40px;
-    padding-left: 15px;
     border-radius: 5px;
-    margin-left: 40px;
+    margin-left: 130px;
 }
+
 .login-form  img{
     height:170px;
     width: 160px;
-    margin-left: 10px;
+    margin: 10px 20px;
+    border-radius: 10px;
     
 }
 .login-form h3{
     text-align: center;
     margin-right: 20px;
+}
+.login-line{
+    border: 1px solid gray;
+    margin: 10px 20px;
+}
+.login-form:hover{
+    background-color: #666666;
+    color: white;
+    transition-duration: 0.3s;
 }
 .saylani{
     height: 250px;
@@ -246,41 +271,59 @@ text-align: center;
     cursor: pointer;
     padding-top: 10px;
     padding-left: 10px;
+    margin-left: 130px;
 }
-.saylani a img{
-    height:150px;
-    width: 150px;
-    margin-left: 20px;
+.saylani  img{
+    height:170px;
+    width: 160px;
+    margin-left: 15px;
     border-radius: 10px;
     
+}
+.line-saylani{
+    border: 1px solid black;
+    margin: 15px 10px;
 }
 .saylani h3{
     text-align: center;
 }
+.saylani:hover{
+    background-color: #666666;
+    color: white;
+    transition-duration: 0.3s;
+}
 .rig-form{
-    height: 240px;
+    height: 250px;
     width: 200px;
     background-color: rgb(163, 161, 159);
-    margin-top: 40px;
     border-radius: 5px;
-    align-items: center;
+    margin-right: 30px;
     
 }
 .line-rig{
     border: 1px solid black;
-    margin-right: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
-.rig-form a img{
+.rig-form  img{
     height:170px;
     width: 160px;
-    
+    border-radius:25px;
+    padding: 10px 20px;    
 }
-
+.rig-form h4{
+     text-align: center;
+} 
+.rig-form:hover{
+    background-color: #666666;
+    color: white;
+    transition-duration: 0.3s;
+}
            /*work3*/
 .work3{
     height: 300px;
     width:100%;
-    background-color:blueviolet ;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -308,7 +351,11 @@ text-align: center;
     border: 1px solid rgb(120, 120, 120);
     margin: 10px 10px;
 }
-
+.iphone:hover{
+    background-color: #666666;
+    color: white;
+    transition-duration: 0.3s;
+}
 
 
 .form{
@@ -332,6 +379,11 @@ text-align: center;
 .form h4{
     text-align: center;
 }
+.form:hover{
+    background-color: #666666;
+    color: white;
+    transition-duration: 0.3s;
+}
 .upwork{
     height: 250px;
     width: 200px;
@@ -352,6 +404,11 @@ text-align: center;
 }
 .upwork h4{
     text-align: center;
+}
+.upwork:hover{
+    background-color: #666666;
+    color: white;
+    transition-duration: 0.3s;
 }
 .olx{
     height: 250px;
@@ -376,7 +433,13 @@ text-align: center;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.olx:hover{
+    background-color: #666666;
+    color: white;
+    transition-duration: 0.3s;
 
+    
+}
 .contact{
     height: 30px;
     width: 100%;
